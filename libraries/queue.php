@@ -7,7 +7,7 @@
  * This message queue library is a wrapper CodeIgniter library using PHP-AMQPLib
  */
 
-require_once __DIR__ . '/../third_party/PhpAmqpLib/vendor/autoload.php';
+require_once __DIR__ . '/../third_party/vendor/autoload.php';
 
 use PhpAmqpLib\Connection\AMQPConnection;
 use PhpAmqpLib\Message\AMQPMessage;
